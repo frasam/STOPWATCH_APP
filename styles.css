@@ -16,21 +16,41 @@
     font-size: 2.5rem;
 }
 
+.display-result{
+    margin: 30px 20px;
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgb(250, 171, 171);
+    padding: 20px;
+}
+
 .btn-container{
-    border: 1px solid red;
+    border: 1px solid rgb(245, 117, 117);
     padding: 30px 20px;
+    border-radius: 10px;
 
 }
 
 .btn-container button{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: white;
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     min-width: 120px;
     cursor: pointer;
+    padding: 10px 20px;
 }
 
 .startBtn{
+    background-color: green;
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bolder;
     
+}
+
+.startBtn:hover{
+    background-color: rgb(119, 196, 119);
 }
