@@ -10,7 +10,7 @@ let isActive = false;
 
 startBtn.addEventListener("click", () => {
     if (!isActive) {
-        startWatch = Date.now() - elapseTime; // adjust for resume
+        startWatch = Date.now() - elapseTime; 
         timeBetween = setInterval(update, 10);
         isActive = true;
     }
