@@ -1,0 +1,45 @@
+The project is a beginner's project. It is a stopwatch App that was built with the following technologies: HTML, CSS, JAVASCRIPT
+the illustration are as follows:
+HTML FILE (index.html)
+the use of google font was applied.
+the class, container, wrap the entire stopwatch app
+the h1, tag, describes the heading of the project, STOPWATCH
+
+a div, with class name: display-result, houses the display, which is shown to the user, whenever an event, such a start, stop or reset, is being initiated by the user.
+
+a div with class name, btn-container. the div serves a container that houses the buttons, which as START, STOP and RESET
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+---
+
+## ✨ Features
+- Start, stop, and reset controls  
+- Time displayed in **hours : minutes : seconds : milliseconds**  
+- Smooth updates every 10ms  
+- Minimal, easy-to-understand JavaScript code  
+
+---
+
+## 📂 Project Structure
+- `index.html` → basic UI (buttons + display area)  
+- `styles.css` → optional styling  
+- `app.js` → stopwatch logic (this file)  
+
+---
+
+💻 Usage
+Start → begins counting time
+
+Stop → pauses the stopwatch
+
+Reset → clears the timer back to 00:00:00:00
+
+🛠️ Code Overview
+The stopwatch works by:
+
+Capturing the current time using Date.now()
+
+Using setInterval() to update the display every 10ms
+
+Calculating elapsed time and formatting it with padStart()
